@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML - Bruno F.</title>
+</head>
+<body>
+    <h1>Simple HTML Examples</h1>
+    <hr>
+    <p>This webpage serves as a comprehensive cheatsheet for HTML, showcasing a wide range of essential HTML tags and their usage. The purpose of this page is to provide a quick reference guide for web developers, designers, and learners who want to understand the fundamental building blocks of HTML without the need for CSS or JavaScript.</p>
+    <br>
+
+    <h2><u>Images</u></h2>
+    <fieldset>
+        <legend> Random Image </legend>
+        <img src="https://picsum.photos/1920/200" alt="Random Photo">
+    </fieldset>
+    <br><hr><br>
+
+    <h2><u>Inputs & Forms</u></h2>
+    <fieldset>
+        <legend>Form Example</legend>
+        <form action="/submit" action="POST">
+            <label for="text">Input Label: </label><input id="text" type="text" placeholder="Input Text">
+            <input type="submit" value="Submit"></li>
+        </form>
+    </fieldset>
+    <h3>Input Types</h3>
+    <ul>
+        <li><strong>text:</strong> <input type="text" value="Default text input"></li>
+        <li><strong>email:</strong> <input type="email" value="example@example.com"></li>
+        <li><strong>password:</strong> <input type="password" value="••••••••"></li>
+        <li><strong>number:</strong> <input type="number" value="123"></li>
+        <li><strong>range:</strong> <input type="range" min="0" max="100" value="50"></li>
+        <li><strong>date:</strong> <input type="date" value="2023-03-14"></li>
+        <li><strong>time:</strong> <input type="time" value="13:30"></li>
+        <li><strong>week:</strong> <input type="week" value="2023-W10"></li>
+        <li><strong>month:</strong> <input type="month" value="2023-03"></li>
+        <li><strong>url:</strong> <input type="url" value="https://www.example.com"></li>
+        <li><strong>search:</strong> <input type="search" value="Search"></li>
+        <li><strong>tel:</strong> <input type="tel" value="123-456-7890"></li>
+        <li><strong>color:</strong> <input type="color" value="#ffffff"></li>
+        <li><strong>checkbox:</strong> <input type="checkbox" checked></li>
+        <li><strong>radio:</strong> <input type="radio" name="gender" value="male" checked> Male <input type="radio" name="gender" value="female"> Female</li>
+        <li><strong>file:</strong> <input type="file"></li>
+        <li><strong>reset:</strong> <input type="reset" value="Reset"></li>
+        <li><strong>submit:</strong> <input type="submit" value="Submit"></li>
+        <li><strong>button:</strong> <input type="button" value="Button"></li>
+        <li><strong>image:</strong> <input type="image" src="button.png" alt="Button"></li>
+        <li><strong>hidden:</strong> <input type="hidden" name="token" value="abc123"></li>
+    </ul>
+    <br><hr><br>
+
+    <h2><u>ComboBoxes</u></h2>
+    <!-- <select> -->
+    <h3>Select:</h3>
+    <select name="fruit" id="fruit">
+        <optgroup label="first-choice">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+        </optgroup>
+        <optgroup label="second-choice">
+            <option value="cherry">Cherry</option>
+            <option value="grape">Grape</option>
+        </optgroup>
+    </select>
+    <br>
+    <!-- <datalist> -->
+    <h3>Datalist:</h3>
+    <input type="text" name="fruit2" list="fruit2">
+    <datalist id="fruit2">
+        <option label="1st" value="Apple">
+        <option label="2nd" value="Banana">
+        <option label="3rd" value="Cherry">
+        <option label="4th" value="Grape">
+    </datalist>
+    <br><hr><br>
+
+    <h2><u>Lists</u></h2>
+    <h3>Ordered and Unordered Nested List:</h3>
+    <ul>
+        <li><a href="#">Item 1 (Anchor)</a></li>
+        <li>Item 2</li>
+        <li>Item 3
+            <ol>
+                <li>Sub-item 1</li>
+                <li>Sub-item 2</li>
+            </ol>
+        </li>
+    </ul>
+    <h3>Definition List:</h3>
+    <dl>
+        <dt>Term 1</dt>
+        <dd>Definition 1</dd>
+        <dt>Term 2</dt>
+        <dd>Definition 2</dd>
+        <dt>Term 3</dt>
+        <dd>Definition 3</dd>
+    </dl>
+    <br><hr><br>
+
+    <h2><u>Tables</u></h2>
+    <table border="1">
+        <caption>Sample Table</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>25</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>30</td>
+                <td>Los Angeles</td>
+            </tr>
+            <tr>
+                <td>Michael Johnson</td>
+                <td>35</td>
+                <td>Chicago</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <th>100</th>
+                <th>3</th>
+            </tr>
+        </tfoot>
+    </table>
+    <br><hr><br>
+
+
+</body>
+</html>
